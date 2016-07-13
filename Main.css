@@ -86,7 +86,7 @@ nav a {
 
 body{
   background-color: skyblue;
-  background-image: url('file:///var/www/html/webpage/vint.jpg');
+  background-image: url('vint.jpg');
   background-repeat: no-repeat;
   opacity: 0.9;
 
