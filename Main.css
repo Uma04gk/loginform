@@ -1,0 +1,158 @@
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+color: #756657;
+text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.cover {
+
+    display: flex;
+
+}
+
+
+
+nav {
+  display: flex;
+  align-self: center;
+margin-top: 0;
+ background-color: #ababba;
+}
+
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+  font-weight: 200;
+  color: black;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+top: 0;
+float: right;
+}
+
+.contact-btn a {
+  margin-right: 30px;
+  padding: 5px 18px;
+  border: 1px solid #204156;
+
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+nav a {
+  height: 60px;
+  line-height: 45px;
+  color: green;
+  text-decoration: none;
+}
+
+.loginsec {
+  position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+body{
+  background-color: skyblue;
+  background-image: url('file:///var/www/html/webpage/vint.jpg');
+  background-repeat: no-repeat;
+  opacity: 0.9;
+
+  background-size: 99%,99%;
+
+
+
+  color: #ffffff;
+
+}
+
+
+
+
+.row h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.row h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+.gallery {
+
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+
+	color: white;
+  font-weight: bold;
+  	font-size: 16px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+</style>
+
+</html>
